@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 450;
+  padding-top: 80px;
+  background-color: white;
+}
+.libtn {
+  border: none;
+  font-size: large;
+  background-color: #f9f8fa;
+  margin: 12px;
+}
+.libtn:hover {
+  box-shadow: 3px 3px 5px rgba(112, 112, 112, 0.5);
+  background: linear-gradient(120deg, #eaeaea, #80ccc6);
+}
+
+img {
+  border-radius: 5%;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.anc {
+  padding-right: 25px;
+}
+
+.masterDiv {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #f9f9f9;
+
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 10px rgba(112, 112, 112, 0.1),
+    -10px -10px 10px rgba(112, 112, 112, 0.1),
+    -10px 10px 10px rgba(112, 112, 112, 0.1),
+    10px -10px 10px rgba(112, 112, 112, 0.1);
+  border-radius: 8px;
+
+  /* background: white; */
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  min-height: 200px;
+  padding: 40px;
+  scroll-margin-top: 15vh;
+}
+
+#education ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+#education li {
+  text-indent: -1.3em;
+  padding-left: 2em;
+}
+.container i {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 576px) {
+  .anc {
+    padding-right: 15px;
+  }
+
+  img {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .btns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .container {
+    margin: 20px;
+    box-shadow: 4px 4px 10px rgba(112, 112, 112, 0.1),
+      -4px -4px 10px rgba(112, 112, 112, 0.1),
+      -4px 4px 10px rgba(112, 112, 112, 0.1),
+      4px -4px 10px rgba(112, 112, 112, 0.1);
+  }
+}
+.container:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  transition: all 0.3s ease;
+  background-color: #f8f8ff;
+}
