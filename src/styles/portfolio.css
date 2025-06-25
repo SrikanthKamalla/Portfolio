@@ -80,7 +80,11 @@ html {
   background: linear-gradient(45deg, #3498db, #2980b9);
   color: white;
 }
-
+.btn-primary > a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
 .btn-primary:hover {
   background: linear-gradient(45deg, #2980b9, #1f6391);
   transform: translateY(-2px);

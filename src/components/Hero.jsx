@@ -178,9 +178,16 @@ const Hero = () => {
             state. Always eager to learn, innovate, and contribute to impactful
             projects.
           </p>
-          <div className="btn btn-primary ">
-            <IoDocumentText style={{ marginRight: "8px" }} />
-            Resume
+          <div>
+            <a
+              className="btn btn-primary"
+              href="https://drive.google.com/file/d/1Ni8kY_KvlHM2IgzTeVLSPy2c2R64sEfY/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoDocumentText style={{ marginRight: "8px" }} />
+              Resume
+            </a>
           </div>
         </div>
       </div>
