@@ -49,8 +49,8 @@ const Portfolio = () => {
         <Hero />
         <About />
         <Skills />
-        <Internship />
         <Projects />
+        <Internship />
         <Education />
         <Contact />
       </main>

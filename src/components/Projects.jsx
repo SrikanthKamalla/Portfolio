@@ -6,31 +6,6 @@ import "../styles/project.css";
 const Projects = () => {
   const projects = [
     {
-      title: "Snapnest",
-      description:
-        "A dynamic social media application built using the MERN stack with advanced state management via Redux Toolkit and Thunk. The platform allows users to create profiles, post updates, comment, and interact with a real-time newsfeed. Designed with responsiveness and scalability in mind, it provides an engaging and seamless user experience.",
-      technologies: [
-        { name: "React", icon: FaReact, color: "#61dafb" },
-        { name: "Redux", icon: SiRedux, color: "#764abc" },
-        { name: "Thunk", icon: SiRedux, color: "#764abc" },
-        { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
-        { name: "Node.js", icon: FaNode, color: "#339933" },
-        { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
-        { name: "Express", icon: SiExpress, color: "#000000" },
-      ],
-      features: [
-        "User authentication and profile creation",
-        "Post creation, likes, and commenting system",
-        "Real-time feed updates and user interactions",
-        "Centralized state management using Redux Toolkit and Thunk",
-        "Responsive UI for mobile and desktop",
-        "Secure backend with JWT authentication",
-      ],
-      liveLink: "#",
-      githubLink: "#",
-      category: "Full Stack",
-    },
-    {
       title: "Health Check Pro",
       description:
         "A comprehensive health monitoring application built with the MERN stack. Features include patient management, appointment scheduling, health records tracking, and real-time notifications. Implemented React hooks for state management and created a dynamic, responsive user interface.",
@@ -52,6 +27,31 @@ const Projects = () => {
       liveLink: "https://myhealthcheckpro.onrender.com/",
       githubLink:
         "https://github.com/springboardmentor-104/HealthCheckPro_Infosys_Internship_Mar2025/tree/milestone-4",
+      category: "Full Stack",
+    },
+    {
+      title: "Snapnest",
+      description:
+        "A dynamic social media application built using the MERN stack with advanced state management via Redux Toolkit and Thunk. The platform allows users to create profiles, post updates, comment, and interact with a real-time newsfeed. Designed with responsiveness and scalability in mind, it provides an engaging and seamless user experience.",
+      technologies: [
+        { name: "React", icon: FaReact, color: "#61dafb" },
+        { name: "Redux", icon: SiRedux, color: "#764abc" },
+        { name: "Thunk", icon: SiRedux, color: "#764abc" },
+        { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
+        { name: "Node.js", icon: FaNode, color: "#339933" },
+        { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
+        { name: "Express", icon: SiExpress, color: "#000000" },
+      ],
+      features: [
+        "User authentication and profile creation",
+        "Post creation, likes, and commenting system",
+        "Real-time feed updates and user interactions",
+        "Centralized state management using Redux Toolkit and Thunk",
+        "Responsive UI for mobile and desktop",
+        "Secure backend with JWT authentication",
+      ],
+      liveLink: "#",
+      githubLink: "https://github.com/SrikanthKamalla/SnapNest",
       category: "Full Stack",
     },
   ];
