@@ -31,7 +31,12 @@ const Hero = () => {
   const heroRef = useRef(null);
   const iconsRef = useRef([]);
 
-  const texts = ["Web Developer", "Software Developer", "Frontend Developer"];
+  const texts = [
+    "Web Developer",
+    "MERN Stack Developer",
+    "Software Developer",
+    "Frontend Developer",
+  ];
   const skillsIcons = [
     { Icon: FaFigma, color: "#f24e1e", name: "Figma" },
     { Icon: FaHtml5, color: "#e34c26", name: "HTML5" },
@@ -78,7 +83,7 @@ const Hero = () => {
     );
 
     return () => clearTimeout(timeout);
-  }, [typedText, currentIndex, isDeleting]);
+  }, [typedText, currentIndex, isDeleting, texts]);
 
   const positionedIcons = useMemo(() => {
     return skillsIcons.map((item) => ({
@@ -172,16 +177,17 @@ const Hero = () => {
             </span>
           </div>
           <p className="hero-subtitle">
-            Frontend Developer skilled in building responsive and scalable web
-            applications using React, Redux, and Redux Toolkit. Passionate about
-            crafting intuitive user interfaces and managing complex application
-            state. Always eager to learn, innovate, and contribute to impactful
-            projects.
+            MERN Stack Developer experienced in building full-stack web
+            applications using MongoDB, Express.js, React, Redux Toolkit, and
+            Node.js. Skilled in creating responsive, scalable, and efficient
+            solutions, managing application state, and developing both frontend
+            and backend components. Focused on delivering clean, maintainable
+            code and contributing to meaningful projects.
           </p>
           <div>
             <a
               className="btn btn-primary"
-              href="https://drive.google.com/file/d/1Ly-uXW-R5wJ6APe5FNE1YXt-qMXYE9cw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1JUO1kI3jkqof18fzthYfMxjWPDwy_D15/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

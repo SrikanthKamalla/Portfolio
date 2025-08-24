@@ -120,6 +120,8 @@ const Education = () => {
                     </div>
                   </div>
                   <p className="cert-description">{cert.description}</p>
+                  <br />
+                  <p className="cert-description">Tap to see</p>
                 </div>
               ))}
             </div>

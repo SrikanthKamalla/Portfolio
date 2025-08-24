@@ -8,8 +8,18 @@ import {
   FaGitAlt,
   FaFigma,
   FaCode,
+  FaNodeJs,
+  FaGithub,
 } from "react-icons/fa";
-import { SiMysql, SiPostman, SiRedux } from "react-icons/si";
+import {
+  SiExpress,
+  SiGooglechrome,
+  SiMongodb,
+  SiMysql,
+  SiPostman,
+  SiRedux,
+  SiTailwindcss,
+} from "react-icons/si";
 import "../styles/skills.css";
 import { VscVscode } from "react-icons/vsc";
 
@@ -18,27 +28,34 @@ const Skills = () => {
     {
       title: "Languages",
       skills: [
-        { name: "JavaScript", icon: FaJs, level: 85, color: "#f7df1e" },
-        { name: "Java", icon: FaJava, level: 80, color: "#007396" },
-        { name: "SQL", icon: SiMysql, level: 75, color: "#4479a1" },
-        { name: "HTML5", icon: FaHtml5, level: 90, color: "#e34c26" },
-        { name: "CSS3", icon: FaCss3Alt, level: 85, color: "#1572b6" },
+        { name: "JavaScript", icon: FaJs, color: "#f7df1e" },
+        { name: "Java", icon: FaJava, color: "#007396" },
+        { name: "SQL", icon: SiMysql, color: "#4479a1" },
+        { name: "HTML5", icon: FaHtml5, color: "#e34c26" },
+        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
       ],
     },
     {
       title: "Frameworks & Libraries",
       skills: [
-        { name: "ReactJS", icon: FaReact, level: 85, color: "#61dafb" },
-        { name: "Redux", icon: SiRedux, level: 85, color: "#764abc" },
+        { name: "ReactJS", icon: FaReact, color: "#61dafb" },
+        { name: "Redux", icon: SiRedux, color: "#764abc" },
+        { name: "ExpressJS", icon: SiExpress, color: "#000000" },
+        { name: "NodeJS", icon: FaNodeJs, color: "#339933" },
+        { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
+        { name: "REST APIs", icon: SiPostman, color: "#ff6c37" },
+        { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06b6d4" },
       ],
     },
     {
       title: "Tools & Technologies",
       skills: [
-        { name: "Git", icon: FaGitAlt, level: 80, color: "#f05032" },
-        { name: "Postman", icon: SiPostman, level: 80, color: "#ff6c38" },
-        { name: "VS Code", icon: VscVscode, level: 90, color: "#007acc" },
-        { name: "Figma", icon: FaFigma, level: 70, color: "#f24e1e" },
+        { name: "Postman", icon: SiPostman, color: "#ff6c38" },
+        { name: "Git", icon: FaGitAlt, color: "#f05032" },
+        { name: "GitHub", icon: FaGithub, color: "#181717" },
+        { name: "VS Code", icon: VscVscode, color: "#007acc" },
+        { name: "Figma", icon: FaFigma, color: "#f24e1e" },
+        { name: "Chrome DevTools", icon: SiGooglechrome, color: "#4285f4" },
       ],
     },
   ];
