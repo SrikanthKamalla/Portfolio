@@ -1,6 +1,6 @@
 import React from "react";
-import { FaExternalLinkAlt, FaGithub, FaReact } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
+import { FaExternalLinkAlt, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiExpress, SiJavascript, SiMongodb } from "react-icons/si";
 import "../styles/project.css";
 
 const Internship = () => {
@@ -12,6 +12,9 @@ const Internship = () => {
       technologies: [
         { name: "React", icon: FaReact, color: "#61dafb" },
         { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
+        { name: "ExpressJS", icon: SiExpress, color: "#000000" },
+        { name: "NodeJS", icon: FaNodeJs, color: "#339933" },
+        { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
       ],
       features: [
         "Real-time tracking of vital health metrics such as BMI, hydration, and physical activity",
