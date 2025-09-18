@@ -6,7 +6,7 @@ import "../styles/project.css";
 const Internship = () => {
   const internships = [
     {
-      title: "Infosys Springboard Health App",
+      title: "MERN Stack Intern",
       description:
         "Developed during my internship at Infosys Springboard, this health application focuses on preventive healthcare and wellness tracking. Built with modern web technologies to provide users with comprehensive health monitoring tools.",
       technologies: [
