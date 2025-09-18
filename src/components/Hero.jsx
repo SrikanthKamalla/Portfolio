@@ -31,12 +31,15 @@ const Hero = () => {
   const heroRef = useRef(null);
   const iconsRef = useRef([]);
 
-  const texts = [
-    "Web Developer",
-    "MERN Stack Developer",
-    "Software Developer",
-    "Frontend Developer",
-  ];
+  const texts = useMemo(
+    () => [
+      "Web Developer",
+      "MERN Stack Developer",
+      "Software Developer",
+      "Frontend Developer",
+    ],
+    []
+  );
   const skillsIcons = [
     { Icon: FaFigma, color: "#f24e1e", name: "Figma" },
     { Icon: FaHtml5, color: "#e34c26", name: "HTML5" },
@@ -187,7 +190,7 @@ const Hero = () => {
           <div>
             <a
               className="btn btn-primary"
-              href="https://drive.google.com/file/d/1qAs6vu6mLEHbT94ysVRknJ1IcBfC3nwo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qAs6vu6mLEHbT94ysVRknJ1IcBfC3nwo/view"
               target="_blank"
               rel="noopener noreferrer"
             >
