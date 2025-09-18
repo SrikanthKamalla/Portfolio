@@ -187,7 +187,7 @@ const Hero = () => {
           <div>
             <a
               className="btn btn-primary"
-              href="https://drive.google.com/file/d/1CLvNM6mcxiRK83MN_buIRgVgnulJ4c06/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qAs6vu6mLEHbT94ysVRknJ1IcBfC3nwo/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
