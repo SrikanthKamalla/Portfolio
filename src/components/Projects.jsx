@@ -26,7 +26,7 @@ const Projects = () => {
         "Responsive UI for mobile and desktop",
         "Secure backend with JWT authentication",
       ],
-      liveLink: "https://snapnest-a72n.onrender.com/",
+      liveLink: "https://snapnest-phi.vercel.app/",
       githubLink: "https://github.com/SrikanthKamalla/SnapNest",
       category: "Full Stack",
     },
