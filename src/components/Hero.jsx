@@ -190,7 +190,7 @@ const Hero = () => {
           <div>
             <a
               className="btn btn-primary"
-              href="https://drive.google.com/file/d/1qAs6vu6mLEHbT94ysVRknJ1IcBfC3nwo/view"
+              href="https://drive.google.com/file/d/1NpRd9LDrgTd8q7xtljzYPUFcBGVEBQCd/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
