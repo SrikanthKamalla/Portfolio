@@ -1,12 +1,19 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiExpress, SiJavascript, SiMongodb } from "react-icons/si";
+import {
+  SiExpress,
+  SiJavascript,
+  SiMongodb,
+  SiReacthookform,
+  SiTailwindcss,
+  SiZod,
+} from "react-icons/si";
 import "../styles/project.css";
 
 const Internship = () => {
   const internships = [
     {
-      title: "MERN Stack Intern",
+      title: "MERN Stack Internship",
       description:
         "Developed during my internship at Infosys Springboard, this health application focuses on preventive healthcare and wellness tracking. Built with modern web technologies to provide users with comprehensive health monitoring tools.",
       technologies: [
@@ -23,11 +30,33 @@ const Internship = () => {
         "Intuitive dashboard UI for seamless navigation and user engagement",
         "Fully responsive design optimized for mobile, tablet, and desktop experiences",
       ],
+      name: "Certificate",
       certificate:
         "https://drive.google.com/file/d/15G1su1dcE3r-ElwSFJzUsrhZpwwP199J/view?usp=drive_link",
-      githubLink:
-        "https://github.com/springboardmentor-104/HealthCheckPro_Infosys_Internship_Mar2025/tree/milestone-4",
       category: "Internship",
+    },
+    {
+      title: "Freelance Frontend Developer",
+      description:
+        "Worked as a freelance frontend developer for Nomadskills, an EdTech platform. Built a responsive dashboard and lead-generation features with a strong focus on form validation, performance, and user experience.",
+      technologies: [
+        { name: "React", icon: FaReact, color: "#61dafb" },
+        { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
+        { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38bdf8" },
+        { name: "React Hook Form", icon: SiReacthookform, color: "#ec5990" },
+        { name: "Zod", icon: SiZod, color: "#3e67b1" },
+      ],
+      features: [
+        "Designed and developed a responsive dashboard using Tailwind CSS",
+        "Built and validated complex forms using React Hook Form and Zod",
+        "Implemented a callback request feature for lead generation",
+        "Improved form reliability with schema-based validation",
+        "Optimized layouts for mobile and desktop devices",
+        "Collaborated with stakeholders to translate business requirements into UI",
+      ],
+      name: "Deployed Link",
+      certificate: "https://nomadskills.in/",
+      category: "Freelance",
     },
   ];
 
@@ -74,16 +103,7 @@ const Internship = () => {
                   className="btn btn-primary"
                 >
                   <FaExternalLinkAlt />
-                  Certificate
-                </a>
-                <a
-                  href={project.githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline"
-                >
-                  <FaGithub />
-                  Source Code
+                  {project.name}
                 </a>
               </div>
             </div>

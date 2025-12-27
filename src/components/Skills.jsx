@@ -29,20 +29,20 @@ const Skills = () => {
       title: "Languages",
       skills: [
         { name: "JavaScript", icon: FaJs, color: "#f7df1e" },
+        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
+        { name: "HTML5", icon: FaHtml5, color: "#e34c26" },
         { name: "Java", icon: FaJava, color: "#007396" },
         { name: "SQL", icon: SiMysql, color: "#4479a1" },
-        { name: "HTML5", icon: FaHtml5, color: "#e34c26" },
-        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
       ],
     },
     {
       title: "Frameworks & Libraries",
       skills: [
-        { name: "ReactJS", icon: FaReact, color: "#61dafb" },
-        { name: "Redux", icon: SiRedux, color: "#764abc" },
-        { name: "ExpressJS", icon: SiExpress, color: "#000000" },
         { name: "NodeJS", icon: FaNodeJs, color: "#339933" },
+        { name: "ReactJS", icon: FaReact, color: "#61dafb" },
+        { name: "ExpressJS", icon: SiExpress, color: "#000000" },
         { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
+        { name: "Redux", icon: SiRedux, color: "#764abc" },
         { name: "REST APIs", icon: SiPostman, color: "#ff6c37" },
         { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06b6d4" },
       ],
@@ -91,7 +91,7 @@ const Skills = () => {
             <h3>🏆 LeetCode Achievement</h3>
             <div className="stats-content">
               <div className="stat-item">
-                <span className="stat-number">200+</span>
+                <span className="stat-number">250+</span>
                 <span className="stat-label">Problems Solved</span>
               </div>
               <div className="stat-item">

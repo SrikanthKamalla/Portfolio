@@ -41,7 +41,7 @@ const Navbar = ({ activeSection }) => {
 
           <div className="social-icons">
             <a
-              href="https://linkedin.com/in/srikanth-kamalla"
+              href="https://www.linkedin.com/in/srikanthkamalla/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"

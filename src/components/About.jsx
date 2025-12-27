@@ -40,22 +40,8 @@ const About = () => {
 
             <div className="highlight-card">
               <h3>LeetCode Stats</h3>
-              <p>200+ Problems Solved</p>
+              <p>250+ Problems Solved</p>
               <p>Consistent Problem Solver</p>
-            </div>
-
-            <div className="highlight-card">
-              <h3>Community Service</h3>
-              <div className="nss-info">
-                <FaHandsHelping className="nss-icon" />
-                <div>
-                  <p>
-                    <strong>NSS Volunteer</strong>
-                  </p>
-                  <p>Active participant in National Service Scheme</p>
-                  <p>Contributed to community development initiatives</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

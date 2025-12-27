@@ -35,7 +35,7 @@ const socialLinks = [
   {
     icon: FaLinkedin,
     name: "LinkedIn",
-    url: "https://linkedin.com/in/srikanth-kamalla",
+    url: "https://www.linkedin.com/in/srikanthkamalla/",
     color: "#0077b5",
   },
   {

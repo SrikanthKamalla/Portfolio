@@ -1,6 +1,12 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub, FaReact, FaNode } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiJavascript, SiRedux } from "react-icons/si";
+import {
+  SiMongodb,
+  SiExpress,
+  SiJavascript,
+  SiRedux,
+  SiGooglemaps,
+} from "react-icons/si";
 import "../styles/project.css";
 
 const Projects = () => {
@@ -31,27 +37,30 @@ const Projects = () => {
       category: "Full Stack",
     },
     {
-      title: "Health Check Pro",
+      title: "Meet in the Middle",
       description:
-        "A comprehensive health monitoring application built with the MERN stack. Features include patient management, appointment scheduling, health records tracking, and real-time notifications. Implemented React hooks for state management and created a dynamic, responsive user interface.",
+        "A location-based web application that helps multiple users find a fair and convenient offline meeting point. The system calculates a central meeting location based on participants’ live or shared locations and visualizes it on an interactive map, making group meetups easier and more efficient.",
       technologies: [
         { name: "React", icon: FaReact, color: "#61dafb" },
-        { name: "Node.js", icon: FaNode, color: "#339933" },
-        { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
-        { name: "Express", icon: SiExpress, color: "#000000" },
+        { name: "Redux", icon: SiRedux, color: "#764abc" },
         { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
+        { name: "Node.js", icon: FaNode, color: "#339933" },
+        { name: "Express", icon: SiExpress, color: "#000000" },
+        { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
+        { name: "Google Maps API", icon: SiGooglemaps, color: "#4285F4" },
       ],
       features: [
-        "Patient registration and profile management",
-        "Appointment booking system",
-        "Health records and medical history",
-        "Real-time notifications",
-        "Responsive design for all devices",
-        "Secure authentication system",
+        "Create and join group meetups",
+        "Collect participant locations securely",
+        "Calculate a central meeting point for fairness",
+        "Interactive map visualization using Google Maps",
+        "Redux-based centralized state management",
+        "Google OAuth authentication for quick and secure user login",
+        "Mobile-friendly and responsive UI",
       ],
-      liveLink: "https://myhealthcheckpro.onrender.com/",
+      liveLink: "",
       githubLink:
-        "https://github.com/springboardmentor-104/HealthCheckPro_Infosys_Internship_Mar2025/tree/milestone-4",
+        "https://github.com/SrikanthKamalla/MeetInTheMiddle-Frontend.git", // add repo link if public
       category: "Full Stack",
     },
   ];
@@ -92,15 +101,17 @@ const Projects = () => {
               </div>
 
               <div className="project-links">
-                <a
-                  href={project.liveLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  <FaExternalLinkAlt />
-                  Live Demo
-                </a>
+                {project.liveLink && (
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                  >
+                    <FaExternalLinkAlt />
+                    Live Demo
+                  </a>
+                )}
                 <a
                   href={project.githubLink}
                   target="_blank"
