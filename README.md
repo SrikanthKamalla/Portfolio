@@ -1,12 +1,141 @@
-# React + Vite
+# Srikanth Kamalla — Personal Portfolio 💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live demo:** https://portfolio-delta-dun-48.vercel.app/
+---
 
-Currently, two official plugins are available:
+## Overview ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A clean, responsive personal portfolio built with **React** and **Vite** showcasing projects, skills, education, internship experience, and contact details. It includes a contact form powered by EmailJS and deploys easily to GitHub Pages.
 
-## Expanding the ESLint configuration
+> Built with performance and accessibility in mind; ideal for showcasing your developer profile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features ✅
+
+- Landing / Hero section
+- About & Education
+- Skills & Projects gallery
+- Internship experience section
+- Contact form (EmailJS integration)
+- Responsive layout and lightweight animations
+
+---
+
+## Technologies & Tools 🔧
+
+- React (v19)
+- Vite
+- EmailJS (@emailjs/browser)
+- particles.js (for background effects)
+- react-icons
+- GitHub Pages (gh-pages)
+
+---
+
+## Quick Start — Local Development ⚡
+
+Prerequisites: Node.js (LTS) and npm/yarn
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/srikanthkamalla/Portfolio.git
+cd Portfolio
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+# yarn
+```
+
+3. Run dev server
+
+```bash
+npm run dev
+```
+
+Open http://localhost:5173 (Vite default) in your browser.
+
+---
+
+## Scripts (from `package.json`) 🧭
+
+- `npm run dev` — start the dev server
+- `npm run build` — build for production
+- `npm run preview` — preview production build locally
+- `npm run lint` — run ESLint
+- `npm run deploy` — deploy `dist` to GitHub Pages (uses `gh-pages`)
+
+> Note: `predeploy` runs `npm run build` automatically before `deploy`.
+
+---
+
+## Environment Variables (EmailJS) 🔑
+
+The contact form uses EmailJS and expects the following env variables (Vite):
+
+- `VITE_EMAILJS_SERVICE_ID`
+- `VITE_EMAILJS_TEMPLATE_ID`
+- `VITE_EMAILJS_PUBLIC_KEY`
+
+Create a local `.env` (or `.env.local`) file at project root:
+
+```bash
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_api_key
+```
+
+---
+
+## Folder Structure 📁
+
+```
+src/
+  ├─ components/        # React components (Hero, About, Projects, Contact, ...)
+  ├─ styles/            # CSS files per-section
+  ├─ assets/            # images and static assets
+  ├─ main.jsx           # app entry
+  └─ App.jsx
+```
+
+---
+
+## Deploying to GitHub Pages 🚀
+
+The project includes a `deploy` script using `gh-pages`:
+
+```bash
+npm run build
+npm run deploy
+```
+
+After running the deploy, your site will be published at the `homepage` URL from `package.json`.
+
+---
+
+## Contributing 🤝
+
+Contributions are welcome — feel free to open issues or PRs. Keep changes small and include a description of the work.
+
+---
+
+## License ⚖️
+
+No license file found in the repository. If you intend to open-source this project, consider adding a license (e.g., **MIT**). If you want, I can add a `LICENSE` file for you.
+
+---
+
+## Contact ✉️
+
+- Email: `srikanthkamalla2919@gmail.com`
+- GitHub: https://github.com/srikanthkamalla
+- LinkedIn: https://www.linkedin.com/in/srikanthkamalla/
+
+---
+
+Made with ❤️ by Srikanth Kamalla
